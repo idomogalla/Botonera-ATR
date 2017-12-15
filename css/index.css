@@ -35,6 +35,9 @@ a, a:active, a:focus {
 .btn-group:hover .btn{
   background-color: #730907;
 }
+.btn-group:active .btn, .btn-group:focus .btn{
+  background-color: #6D8C70;
+}
 
 .btn {
   background-color: #6D8C70;
@@ -43,13 +46,15 @@ a, a:active, a:focus {
   font-size: 1em;
   font-weight: bold;
 }
-  .btn:active,
-  .btn:focus {
-    background-image: none;
+  .btn:active, .btn:focus
+  {
+    background-color: #6D8C70;
     outline: 0;
+    -moz-box-shadow: none;
     -webkit-box-shadow: none;
             box-shadow: none;
   }
+
   .btn a{
     color: #EAD2AC;
   }
